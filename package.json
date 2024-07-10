@@ -1,0 +1,24 @@
+{
+  "name": "keydecoy",
+  "version": "1.0.0",
+  "main": "src/main.js",
+  "type": "module",
+  "scripts": {
+    "test": "node src/test.js"
+  },
+  "keywords": ["jwt","token","cookies","jwt-decode","api","security","axios-freespace","axios"],
+  "author": "Rahul Sharam",
+  "license": "ISC",
+  "description": "The Token Decoy package is designed to enhance the security of tokens by generating decoy patterns and mutations. It splits tokens into chunks and manipulates the keys associated with these chunks, applying different patterns and mutations to protect the real tokens from being easily identified.",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rahulsharmacode/keydecoy.git"
+  },
+  "bugs": {
+    "url": "https://github.com/rahulsharmacode/axios-serve/issues"
+  },
+  "homepage": "https://rahulsharma.com.np/npm/keydecoy",
+  "dependencies": {
+    "randomstring": "^1.3.0"
+  }
+}
